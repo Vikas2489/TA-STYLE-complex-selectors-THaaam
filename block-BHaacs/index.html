@@ -1,0 +1,194 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Complex Selector | Assignment 1</title>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <ul class="flex">
+                <div>
+                    <li><a href="#">TrackL</a></li>
+                </div>
+                <!-- hamburger menu -->
+
+                <label for="toggleMenu" class="bar"> <i class="fas fa-bars"></i></label>
+                <input type="checkbox" id="toggleMenu">
+
+                <div class="flex sub-nav-bar">
+                    <li class="margin-left"><a href="#">Features</a></li>
+                    <li class="margin-left"><a href="#">Pricing</a></li>
+                    <li class="margin-left"><a href="#">About</a></li>
+                    <li class="margin-left"><a href="#">Help</a></li>
+                </div>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Track The Learning <br> Process Schedule</h1>
+            <button type="button">Get 30 Days Trail</button>
+        </div>
+    </header>
+    <main class="container">
+        <section class="justify-center">
+            <img class="hero_image" src="./assets/hero.png" alt="hero_img">
+        </section>
+        <section class="links flex justify-around">
+
+            <a href="#.pdf" class="align-items"> <img src="./assets/pdf.png" alt="pdf"> PDF FILE</a>
+            <a href="#.doc" class="align-items"> <img src="./assets/word.png" alt="word"> WORD FILE</a>
+            <a href="#.png" class="align-items"> <img src="./assets/image.png" alt="image"> IMAGE FILE</a>
+            <a href="#.mp4" class="align-items"> <img src="./assets/video.png" alt="video"> VIDEO FILE</a>
+        </section>
+        <hr>
+        <section class="flex section_monitor">
+            <article class="article-monitor flex-45">
+                <h2>Monitor Your Learning And Improve It </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. aspernatur totam libero nam accusamus Voluptatibus ea accusantium esse molestias!</p>
+                <button type="button">Learn More</button>
+            </article>
+            <div class="flex-45">
+                <img src="./assets/learning-graph.png" alt="learning-graph">
+            </div>
+        </section>
+        <section class="table-section">
+            <h3>WEEKLY SCORE</h3>
+            <table>
+                <thead>
+                    <th>Days</th>
+                    <th>Course</th>
+                    <th>Score(1-100)</th>
+                    <th>Hours Spent</th>
+                </thead>
+                <tr>
+                    <td scope="col">Monday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+                <tr>
+                    <td scope="col">Tuesday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+                <tr>
+                    <td scope="col">Wednesday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+                <tr>
+                    <td scope="col">Thursday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+                <tr>
+                    <td scope="col">Friday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+                <tr>
+                    <td scope="col">Saturday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+                <tr>
+                    <td scope="col">Sunday</td>
+                    <td scope="col">Product Design</td>
+                    <td scope="col">40</td>
+                    <td scope="col">2 Hour 30 Min</td>
+                </tr>
+
+            </table>
+        </section>
+        <section class="studyWithFriends">
+            <h3 class="color">Join Us And Let's Study With Your Friends</h3>
+            <div class="justify-center monthlyButton">
+                <span>Monthly</span>
+                <div class="outer-div"><span>|</span></div> <span>Yearly</span>
+            </div>
+            <article class="flex">
+                <div class="packages flex-48 basic">
+                    <h4 class="color">Basic</h4>
+                    <p>It is a long established fact that render will be <br> distracted by readable</p>
+                    <p class="price">48</p>
+                    <hr>
+                    <ul>
+                        <li class="tick"> <img src="./assets/tick.png" alt="tick"> 50 Courses a day</li>
+                        <li class="tick"> <img src="./assets/tick.png" alt="tick"> 4 forums month</li>
+                        <li class="tick"> <img src="./assets/tick.png" alt="tick"> 16 chapters a day</li>
+                        <li class="cross"> <img src="./assets/cross.png" alt="cross"> Private lessons once a week</li>
+                        <li class="cross"> <img src="./assets/cross.png" alt="cross"> Get weekly reward</li>
+                    </ul>
+                    <button>Get Started</button>
+                </div>
+                <div class="packages flex-48 mostPopular">
+                    <h4 class="color">Most Popular</h4>
+                    <p>It is a long established fact that render will be <br>distracted by readable</p>
+                    <p class="price">58</p>
+                    <hr>
+                    <ul>
+                        <li class="tick"> <img src="./assets/tick.png" alt="tick"> 50 Courses a day</li>
+                        <li class="tick"> <img src="./assets/tick.png" alt="tick"> 4 forums month</li>
+                        <li class="tick"> <img src="./assets/tick.png" alt="tick"> 16 chapters a day</li>
+                        <li class="tick"> <img src="./assets/tick.png" alt="cross"> Private lessons once a week</li>
+                        <li class="tick"> <img src="./assets/tick.png" alt="cross"> Get weekly reward</li>
+                    </ul>
+                    <button>Get Started</button>
+                </div>
+            </article>
+
+        </section>
+        <div class="text-center">
+            <h5>Start Your 30 Days Trail Now!</h5>
+            <button type="button">Get Started</button>
+        </div>
+    </main>
+
+    <footer class="container footer flex">
+        <div class="flex-20">
+            <h6 class="color">TrackL</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Culpa veritatis expedita exe alias quo.</p>
+            <div class="container-of-links">
+                <div class="social-media-links"> <i class="fab fa-facebook-f"></i></div>
+                <div class="social-media-links"> <i class="fab fa-twitter"></i></div>
+                <div class="social-media-links"> <i class="fab fa-instagram"></i></div>
+            </div>
+
+        </div>
+        <ul class="flex-20">
+            <li class="color">Features</li>
+            <li>Calendar</li>
+            <li>Forum</li>
+            <li>Messanger</li>
+            <li>Schedule</li>
+        </ul>
+        <ul class="flex-20">
+            <li class="color">Support</li>
+            <li>About Us</li>
+            <li>Career</li>
+            <li>FAQs</li>
+            <li>Security</li>
+        </ul>
+        <div class="flex-20">
+            <h6 class="color">Contact</h6>
+            <p>hello@track.io</p>
+            <p> +91 8010029489</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
